@@ -6,7 +6,7 @@ const helmet = require('helmet');
 const hpp = require('hpp');
 const xss = require('xss-clean');
 const cookieParser = require('cookie-parser');
-const rateLimiter = require('express-rate-limiter');
+const rateLimiter = require('express-rate-limit');
 const compression = require('compression');
 const cors = require('cors');
 
